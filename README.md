@@ -40,6 +40,7 @@ Algorithms must be contained in a file titled *[teamName].py.*
 - This file must contain a function *getMyPosition().*
 - *getMyPosition()* must take in the daily price data, and output a vector of integer positions - the numbers of shares desired for each stock as the total final position after the last day.
 - *getMyPosition()* must be in the global scope of the file called *[teamName].py* and have the appropriate signature.
+    - The function will be called once a day, with the entire price history up to and including that day. For example, on day 240, your function should take as input an array of 100 inst x 240 days.
     - When *getMyPosition()* is called, we will trade position differences from the previous position **at the most recent price, buying or selling.** 
     - Consider the case where your last position was +30, and the new stock price is $20. If your new position is +100, *eval* will register this as buying 70 **extra** shares at $20 a share. If your new position is -200, *eval* will sell 230 shares also at $20 a share.
 
