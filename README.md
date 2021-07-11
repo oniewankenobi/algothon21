@@ -67,4 +67,5 @@ Metrics used to quantitatively assess your submission will include:
 
 Your algorithms will be assessed against *unseen, future* price data of the same 100 instruments within the provided simulated trading universe.
 
+We expect algorithms to have a maximum runtime of ~10min.
 
