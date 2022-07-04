@@ -16,5 +16,3 @@ def getMyPosition (prcSoFar):
     # The algorithm must return a vector of integers, indicating the position of each stock.
     # Position = number of shares, and can be positve or negative depending on long/short position.
     return currentPos
-
-    I MADE A CHANGE, does this affect main?
