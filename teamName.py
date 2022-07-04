@@ -17,4 +17,4 @@ def getMyPosition (prcSoFar):
     # Position = number of shares, and can be positve or negative depending on long/short position.
     return currentPos
 
-    
+    I MADE A CHANGE, does this affect main?
